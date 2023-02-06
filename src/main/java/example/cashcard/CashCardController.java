@@ -11,7 +11,11 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/cashcards")
 public class CashCardController {
-    private CashCardRepository cashCardRepository;
+    private final CashCardRepository cashCardRepository;
+
+    public CashCardController(CashCardRepository cashCardRepository) {
+        this.cashCardRepository = cashCardRepository;
+    }
 
     @GetMapping("/{requestedId}")
     public ResponseEntity<CashCard> findById(@PathVariable Long requestedId) {
