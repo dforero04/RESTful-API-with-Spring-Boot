@@ -1,7 +1,22 @@
 [
-  {"id": 99, "amount": 123.45 },
-  {"id": 100, "amount": 1.00 },
-  {"id": 101, "amount": 150.00 },
-  {"id": 102, "amount":  25.00},
-  {"id": 103, "amount":  5.00}
+  { "id": 99,
+    "amount": 123.45,
+    "owner": "Bob"
+  },
+  { "id": 100,
+    "amount": 1.00,
+    "owner": "Bob"
+  },
+  { "id": 101,
+    "amount": 150.00,
+    "owner": "Bob"
+  },
+  { "id": 102,
+    "amount":  25.00,
+    "owner": "Joe"
+  },
+  { "id": 103,
+    "amount":  5.00,
+    "owner": "Joe"
+  }
 ]
